@@ -11,6 +11,7 @@ def line (katz_deli)
       current_line.push("#{index+1}. #{name}")
     end
       puts "The line is currently: #{current_line.join(" ")}"
+  end
 end 
 
 
